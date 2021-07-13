@@ -1,0 +1,97 @@
+{
+  "name" : "Mapping3-Dataquality",
+  "sourceOrgId" : "2CcXVPC2yuBfO6F9wV6qAL",
+  "sourceOrgName" : "HashHackCode",
+  "exportedObjects" : [ {
+    "objectGuid" : "3p6WAIkc2HhiyGslQEsZ29",
+    "objectName" : "DESKTOP-G0OB4TK",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0116ZD25000000000003"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "0DBsPVZk4mMbdWRblbJzaA",
+    "objectName" : "Dataquality",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "lU9ybebr6o0fMGBPqQGuY4",
+    "objectName" : "SF_Connection",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0116ZD0B000000000004"
+      },
+      "objectRefs" : [ "3p6WAIkc2HhiyGslQEsZ29" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "8S2jH6k0RQbjuqJbRYzPG1",
+    "objectName" : "Mapping3",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Dataquality",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0116ZD17000000000005"
+      },
+      "objectRefs" : [ "lU9ybebr6o0fMGBPqQGuY4" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  } ]
+}
